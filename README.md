@@ -9,3 +9,6 @@ Feel free to use it and edit it.
 <br>
 
 But after clonning it make sure to remove the Git tracking
+
+
+<img src = "./Images/page" alt = "homepage" />
