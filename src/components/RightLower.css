@@ -61,17 +61,21 @@
 #add_image{
     font-size: 18.89px;
     padding: 20px 40px;
-    border-radius: 10px;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
     border: none;
     color: white;
-    background-color: #2a2f34;
+    background-color: #333;;
     cursor: pointer;
     transition: box-shadow 0.3s ease;
     margin-left: 120px;
+    box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.5);
 }
 
 #add_image:hover{
-    box-shadow: 7px 10px 20px 9px rgb(22, 22, 22);
+    background-color: #555;
 }
 
 .gallery-section {
@@ -80,6 +84,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    perspective: 1000px;
   }
   
   /* Image slider */
@@ -100,14 +105,14 @@
     margin-bottom: 40px;
 
     filter: grayscale(100%);
-  transform: scale(1) skew(0);
-  transition: filter 0.3s ease, transform 0.3s ease;
+    transform: scale(1) skew(0);
+    transition: filter 0.3s ease, transform 0.3s ease , box-shadow 0.3s;
   }
 
   .image-slider img:hover {
-    /* When hovering, remove grayscale, enlarge, and skew */
     filter: grayscale(0%);
-    transform: scale(1.1) ; /* Slight enlarge and skew */
+    transform: rotateX(15deg) rotateY(10deg) ; /* Tilt effect */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
   }
   
   .image-slider::-webkit-scrollbar {

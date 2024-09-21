@@ -60,13 +60,13 @@ const scrollRight = () => {
                     width: '80%',
                     whiteSpace: 'nowrap'
                 }}>
-        <img src={image1} alt="Image 1" />
-        <img src={image2} alt="Image 2" />
-        <img src={image3} alt="Image 3" />
-        <img src={image4} alt="Image 4" />
-        <img src={image5} alt="Image 5" />
-        <img src={image6} alt="Image 6" />
-        <img src={image7} alt="Image 7" />
+        <img src={image1} alt="Image1" />
+        <img src={image2} alt="Image2" />
+        <img src={image3} alt="Image3" />
+        <img src={image4} alt="Image4" />
+        <img src={image5} alt="Image5" />
+        <img src={image6} alt="Image6" />
+        <img src={image7} alt="Image7" />
       </div>
     </div>
     </div>
