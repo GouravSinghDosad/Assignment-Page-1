@@ -11,4 +11,5 @@ Feel free to use it and edit it.
 But after clonning it make sure to remove the Git tracking
 
 
-<img src = "./Images/page" alt = "homepage" />
+![page](https://github.com/user-attachments/assets/e59c1849-2763-4187-b50c-62f670f34d31)
+
