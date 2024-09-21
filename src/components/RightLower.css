@@ -1,0 +1,124 @@
+
+
+.lower_box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 450px;
+    background-color: #363C43;
+    border: 1px white;
+    border-radius: 18.89px;
+    box-shadow: 5px 5px 5px 5px black;
+    margin-top: 20px;
+}
+
+.navbar{
+    display: flex;
+    width: 650px;
+    height: 90px;
+    /* justify-content: center; */
+    align-items: center;
+    align-content: center;
+    background-color: #363C43;
+    margin-top: 20px;
+    border-radius: 20px;
+    gap: 6px;
+}
+
+#button{
+    margin-left: 10px;
+    font-size: 18.89px;
+    color: white;
+    padding: 20px 50px;
+    background-color: #171717;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease , scale 0.3s ease;
+}
+
+#button:hover{
+    background-color: #100f0f;
+    scale: 1.2;
+}
+
+.arrow_btn{
+    margin-left: 10px;
+    border: none;
+    border-radius: 50%;
+    padding: 20px 20px;
+    cursor: pointer;
+    color: white;
+    background-color: #303439;
+    transition: box-shadow 0.3s ease;
+}
+
+.arrow_btn:hover{
+    box-shadow: 10px 10px 30px 5px rgb(25, 25, 25);
+}
+
+#add_image{
+    font-size: 18.89px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #2a2f34;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+    margin-left: 120px;
+}
+
+#add_image:hover{
+    box-shadow: 7px 10px 20px 9px rgb(22, 22, 22);
+}
+
+.gallery-section {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Image slider */
+  .image-slider {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth; /* Smooth scrolling effect */
+    width: 80%; /* Set a container width */
+    padding: 10px;
+  }
+  
+  .image-slider img {
+    margin-right: 20px;
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 40px;
+
+    filter: grayscale(100%);
+  transform: scale(1) skew(0);
+  transition: filter 0.3s ease, transform 0.3s ease;
+  }
+
+  .image-slider img:hover {
+    /* When hovering, remove grayscale, enlarge, and skew */
+    filter: grayscale(0%);
+    transform: scale(1.1) ; /* Slight enlarge and skew */
+  }
+  
+  .image-slider::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .image-slider::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    border-radius: 10px;
+  }
+  
+  .image-slider::-webkit-scrollbar-track {
+    background-color: #333;
+  }

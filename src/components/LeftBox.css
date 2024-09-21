@@ -1,0 +1,12 @@
+
+.left_box{
+    display: flex;
+    background-color: #363c43;
+    width: 836px;
+    height: 639px;
+    border: none;
+    /* margin-left: 29px;
+    margin-top: 120px;
+    margin-bottom: 96px; */
+
+}
